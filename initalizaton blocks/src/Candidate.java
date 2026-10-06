@@ -8,6 +8,10 @@ public class Candidate {
         System.out.println("static block is executing");
         examyear="2026";
         redistrationfee ="50000";
+        System.out.println("examyear="+examyear);
+        System.out.println("registrationfee;UGx"+redistrationfee);
+
+
     }
 
 
