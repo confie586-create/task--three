@@ -13,7 +13,20 @@ public class Candidate {
     }
         String studentname;
         String regstatus;
-        
+        String examinationcenter;
+        //instance block
+        {
+            System.out.println("2 intance intialization block is executing....");
+            regstatus = "registered";
+            examinationcenter = "uneb central center";
+        }
+        //constructor
+    Candidate (String name){
+        System.out.println("construction is executing.....");
+        this.studentname=studentname;
+    }
+
+
 
 
 
@@ -23,4 +36,4 @@ public class Candidate {
 
             }
 
-}
+
