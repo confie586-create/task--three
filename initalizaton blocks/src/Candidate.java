@@ -10,9 +10,14 @@ public class Candidate {
         redistrationfee ="50000";
         System.out.println("examyear="+2026);
         System.out.println("registrationfee;UGx"+50000);
-
-
     }
+        String studentname;
+        String regstatus;
+        
+
+
+
+
 
 
 
