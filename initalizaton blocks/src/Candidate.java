@@ -1,9 +1,11 @@
+import java.awt.datatransfer.StringSelection;
+
 public class Candidate {
     //static variable
     static  String examyear;
-    String name;
+    String Studentnamename;
     String school;
-    static int redistrationfee;
+    static int registrationfee;
     static{
         System.out.println("static block is executing");
         examyear="2026";
@@ -15,6 +17,9 @@ public class Candidate {
         String regstatus;
         String examinationcenter;
         //instance block
+    String getStudentname;
+    String regstatus;
+    String examinationcenter;
         {
             System.out.println("2 intance intialization block is executing....");
             regstatus = "registered";
@@ -24,6 +29,15 @@ public class Candidate {
     Candidate (String name){
         System.out.println("construction is executing.....");
         this.studentname=studentname;
+    }
+    void display(){
+        System.out.println("Candidate:"+ studentname);
+        System.out.println("schooL:"+ school);
+        
+
+
+
+
     }
 
 
