@@ -33,7 +33,7 @@ public class Candidate {
     void display(){
         System.out.println("Candidate:"+ studentname);
         System.out.println("schooL:"+ school);
-        
+        System.out.println("examination center:"+regstatus);
 
 
 
